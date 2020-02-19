@@ -1,6 +1,8 @@
-#How to use:
+# How to use:
 
-#Positive Test Case
+
+
+## Positive Test Case
 
     RetryCommand -Command { 
         
@@ -10,7 +12,7 @@
 
 
 
-#Negative Test Case
+## Negative Test Case
 
     RetryCommand -Command { 
         
@@ -21,3 +23,7 @@
         param($exception)
         Write-ErrorLog "Here is your exception info:: $($exception.Message)"
     }
+
+
+### Note: 
+   *RetryDelay(in seconds) and ExceptionCallBack are optional parameters. ExceptionCallBack parameter is recommended when you need to log or capture the exception.*
