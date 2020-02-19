@@ -5,7 +5,7 @@ This helper repository contains common/reusable script. The main objective of th
 
 ## Table of Contents
 
--   [Retry Pattern](https://github.com/gouravdwivedi6590/PowerShell-Helper-Scripts/blob/master/README.md)
+-   [Retry Pattern](https://github.com/gouravdwivedi6590/PowerShell-Helper-Scripts/tree/master/PSScripts/RetryPattern)
 
 
 
